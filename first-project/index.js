@@ -19,9 +19,10 @@ wow.completeTask(trash)
 
 // let toDo = new List ('chores',)
 
-console.log(toDo)
-console.log(wow)
+// console.log(toDo)
+// console.log(wow)
 
+  console.log(addNewPerson())
 // console.log(toDo.tasksRemaining)
 
 // let done = new List ('study', 0, 1)

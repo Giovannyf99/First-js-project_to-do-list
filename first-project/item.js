@@ -4,18 +4,14 @@ export default class Item {
         this.dueDate = dueDate;
         this.completionStatus = completionStatus;
     }
-    // // intakeDate(due) {
-    // //     this.Item.push(List)
-    // // }
-    // completion() {
-    //     if (this.completionStatus == true) {
-    //         console.log("Complete")
-    //     } else {
-    //         (this.completionStatus == false)
-    //         console.log("Incomplete")
-    //     }
-    // }
-
+      addNewPerson(person) {
+        let task1 = prompt("enter the description of your task");
+        let date1 = prompt("enter your due date");
+        let cs = prompt("completion status: false or true");
+      
+        return person = new Item(task1, date1, cs);
+        
+      }
 }
 
 // export default Item
