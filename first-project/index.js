@@ -1,6 +1,6 @@
 import Item from './item.js'
 import List from './list.js'
-
+import prompt from '@cloud-technology/cli-prompt'
 
 let dishes = new Item('do the dishes by scrubbing them with a smile scrub thing with dawn soap and hot water', '02/22/2023', false)
 let cook = new Item('cook dinner', '02/22/2023', false)
@@ -17,12 +17,13 @@ toDo.addItem(vaccum)
 wow.addItem(trash)
 wow.completeTask(trash)
 
-// let toDo = new List ('chores',)
+let inputItem = new Item(await prompt('Describe the task: '), await prompt('enter your due date: '))
+toDo.addItem(inputItem) 
+    if(List.completeTask == false) {
+    } else { wow.addItem(inputItem)
+    }
 
-// console.log(toDo)
-// console.log(wow)
+// console.log(inputItem)
 
-  console.log(addNewPerson())
-// console.log(toDo.tasksRemaining)
-
-// let done = new List ('study', 0, 1)
+console.log(toDo)
+console.log(wow)

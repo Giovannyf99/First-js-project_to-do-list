@@ -10,7 +10,7 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
+    "devDependencies": {
         "@cloud-technology/cli-prompt": "^0.1.84"
     }
 }

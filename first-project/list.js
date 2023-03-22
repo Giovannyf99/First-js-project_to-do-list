@@ -4,9 +4,9 @@ export default class List {
     this.tasksRemaining = tasksRemaining
     this.completedTasks = completedTasks
     }
+
     addItem(item) {
         this.tasksRemaining.push(item)
-        // console.log(this.tasksRemaining)
     }
 
     completeTask(task) {
@@ -15,9 +15,3 @@ export default class List {
         this.tasksRemaining.splice(this.tasksRemaining.indexOf(task), 1)
     }
 }
-
-
-
-
-
-// export default List
